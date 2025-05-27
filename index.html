@@ -312,6 +312,119 @@
             0% { background-position: -200px 0; }
             100% { background-position: 200px 0; }
         }
+
+        @media (max-width: 768px) {
+            .presentation-container {
+                padding: 10px;
+            }
+
+            .slide {
+                padding: 30px 20px;
+                width: 95%;
+            }
+
+            .slide-title {
+                font-size: 1.8em;
+            }
+
+            .slide-subtitle {
+                font-size: 1em;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+
+            .tools-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .financial-table {
+                font-size: 14px;
+            }
+
+            .financial-table td, .financial-table th {
+                padding: 10px;
+            }
+
+            .nav-btn {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+
+            .slide-indicator {
+                top: 20px;
+                right: 20px;
+                font-size: 14px;
+            }
+
+            .emoji-decoration {
+                font-size: 1.5em;
+            }
+
+            .floating-circle {
+                display: none;
+            }
+
+            body {
+                overflow-x: hidden;
+            }
+
+            .financial-table {
+                display: block;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .slide {
+                padding: 20px 15px;
+            }
+
+            .slide-title {
+                font-size: 1.5em;
+            }
+
+            .slide-content {
+                font-size: 0.9em;
+            }
+
+            .stat-number {
+                font-size: 2em;
+            }
+
+            .highlight-box {
+                padding: 15px;
+            }
+
+            .nav-btn {
+                padding: 10px 15px;
+                font-size: 12px;
+            }
+
+            .navigation {
+                bottom: 20px;
+            }
+
+            .tool-item {
+                padding: 15px;
+            }
+
+            .stat-card {
+                padding: 15px;
+            }
+
+            .slide-subtitle {
+                font-size: 0.9em;
+            }
+
+            .slide-number {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
